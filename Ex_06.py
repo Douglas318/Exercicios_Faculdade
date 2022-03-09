@@ -1,10 +1,10 @@
- '''Os preços das mercadorias apresentam descontos diferenciados pela forma de pagamento.
-Escreva um programa para ler o tipo de pagamento e o preço da mercadoria e imprimir o
-resultado com desconto de acordo com a tabela abaixo:
-Forma de pagamento      código        percentual
-Cartão de crédito         5              -10%
-À vista                   6             - 20%
-3 vezes                   7              -5 %'''
+ #Os preços das mercadorias apresentam descontos diferenciados pela forma de pagamento.
+#Escreva um programa para ler o tipo de pagamento e o preço da mercadoria e imprimir o
+#resultado com desconto de acordo com a tabela abaixo:
+#Forma de pagamento      código        percentual
+#Cartão de crédito         5              -10%
+#À vista                   6             - 20%
+#3 vezes                   7              -5 %
   
   
 print('Cartão: Código 5 - ', 'Dinheiro: Código 6 - ', 'Cartão 3x: Código 7')
