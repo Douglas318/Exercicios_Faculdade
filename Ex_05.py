@@ -1,10 +1,10 @@
-''' Os preços das mercadorias apresentam descontos diferenciados pela forma de pagamento.
-Escreva um programa para ler o tipo de pagamento e o preço da mercadoria e imprimir o
-resultado com desconto de acordo com a tabela abaixo:
-------------------------------------------------------
-Forma de pagamento   código    percentual
-Cartão de crédito      5         -10%
-À vista           outro valor    -20% '''
+#Os preços das mercadorias apresentam descontos diferenciados pela forma de pagamento.
+#Escreva um programa para ler o tipo de pagamento e o preço da mercadoria e imprimir o
+#resultado com desconto de acordo com a tabela abaixo:
+#------------------------------------------------------
+#Forma de pagamento   código    percentual
+#Cartão de crédito      5         -10%
+#À vista           outro valor    -20%
 
 codigo = int(input('informe a forma de pagamento: '))
 mercadoria = float(input('informe o preço da mercadoria: '))
