@@ -1,7 +1,7 @@
-""" Você foi escolhido para desenvolver três programas para uma loja:
-Programa 1: Os preços das mercadorias expostas apresentam descontos diferenciados. Escreva um
-programa para ler o valor da compra e o percentual do desconto. Imprimir a seguinte mensagem:
-"PARA xx.xx % DE DESCONTO O VALOR É R$ yy.yy”"""
+#Você foi escolhido para desenvolver três programas para uma loja:
+#Programa 1: Os preços das mercadorias expostas apresentam descontos diferenciados. Escreva um
+#programa para ler o valor da compra e o percentual do desconto. Imprimir a seguinte mensagem:
+#"PARA xx.xx % DE DESCONTO O VALOR É R$ yy.yy”
 
 
 valor_da_compra = int(input('informe o valor da compra: '))
