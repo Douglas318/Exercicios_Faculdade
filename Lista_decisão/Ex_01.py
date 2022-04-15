@@ -1,6 +1,7 @@
 # 1) Faça um programa para entrar com uma distância (Km), o tempo de viagem (Horas) e dizer se a velocidade média foi superior ao limite (80 Km/h) ou não.
 
 km = float(input('informe a distancia percorrida em km: '))
+
 hr = float(input('informe o tempo de viagem em horas: '))
 
 velocidade_media = km/hr

@@ -5,13 +5,16 @@
 
 
 valor_da_compra = int(input('informe o valor da compra: '))
+
 desconto_10 = valor_da_compra - (valor_da_compra*10)/100
+
 desconto_20 =valor_da_compra - (valor_da_compra*20)/100
 
 if valor_da_compra <= 50:
 	print('você recebeu 10% de desconto o novo valor é {}'.format(desconto_10))
+	
 	print('Para receber 20% de desconto o valor é acima de R$50')
-elif valor_da_compra > 50 :
+if valor_da_compra > 50 :
 	print('Você recebeu 20% de desconto o novo valor é {}'.format(desconto_20))
 
 
