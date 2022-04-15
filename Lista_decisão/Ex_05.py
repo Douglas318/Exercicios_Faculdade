@@ -7,13 +7,21 @@
 #À vista           outro valor    -20%
 
 codigo = int(input('informe a forma de pagamento: '))
+
 mercadoria = float(input('informe o preço da mercadoria: '))
+
 desconto_cartao = mercadoria - (mercadoria*10)/100
+
 desconto_dinheiro = mercadoria - (mercadoria*20)/100
 
 if codigo == 5:
+	
 	print('Você tem direito a 10% de desconto')
+	
 	print('O valor do produto com desconto será {}'.format(desconto_cartao))
+
 elif codigo == 10:
+	
 	print('Você tem direito a 20% de desconto')
+	
 	print('O valor do produto com desconto será {}'.format(desconto_dinheiro))
